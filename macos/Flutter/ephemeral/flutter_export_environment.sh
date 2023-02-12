@@ -1,7 +1,7 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
 export "FLUTTER_ROOT=/Users/akshay/Developer/flutter"
-export "FLUTTER_APPLICATION_PATH=/Users/akshay/Documents/GitHub/tailwind_colors"
+export "FLUTTER_APPLICATION_PATH=/Users/akshay/Documents/GitHub/flutter_tailwind_colors"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_BUILD_DIR=build"
 export "FLUTTER_BUILD_NAME=0.0.1"

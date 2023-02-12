@@ -1,7 +1,7 @@
-name: tailwind_colors
+name: flutter_tailwind_colors
 description: Tailwind CSS Colors
 version: 0.0.1
-homepage: https://github.com/snowcorporate/tailwind_colors
+homepage: https://github.com/snowcorporate/flutter_tailwind_colors
 
 environment:
   sdk: '>=2.19.0 <3.0.0'

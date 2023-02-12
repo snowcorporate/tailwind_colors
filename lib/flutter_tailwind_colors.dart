@@ -1,4 +1,4 @@
-library tailwind_colors;
+library flutter_tailwind_colors;
 
 import 'package:flutter/material.dart';
 
