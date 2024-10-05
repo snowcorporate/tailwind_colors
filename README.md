@@ -1,5 +1,5 @@
 # flutter_tailwind_colors
-Tailwind CSS 3 Colors
+Tailwind CSS 3.4.13 Colors
 
 Dart package exposing Tailwind Colors to be used in flutter in a way similar to the Material colors.
 
@@ -9,7 +9,7 @@ Installation
 
 ```yaml
 dependencies:
-    tailwind_colors: ^0.0.2
+    tailwind_colors: ^0.0.3
 ```
 
 2. Get the package via your IDE or via the command line by typing:
@@ -28,9 +28,9 @@ Tailwind Colors can be created and used in the same way as the usual Material co
 
 
 ```dart
-    // TWColors has shades starting from 100 up to 900 in increment of 100
-    Color primaryColor = TWColors.emerald.shade100;
-    Color secondColor = TWColors.rose.shade900;
+    // TWColors has shades starting from 50 up to 950 in increment of 50 or 100
+    Color primaryColor = TWColors.emerald.shade50;
+    Color secondColor = TWColors.rose.shade950;
 ```
 TWColors features:
 - slate
@@ -52,10 +52,11 @@ TWColors features:
 - indigo
 - violet
 - purple
+- fuchsia
 - pink
 - rose
 
-TWColors features the Tailwind 3.0 color palette:
+TWColors features the Tailwind 3.4.13 color palette:
 - The palette can be found on the [TailwindCSS website](https://tailwindcss.com/docs/customizing-colors)
 
 

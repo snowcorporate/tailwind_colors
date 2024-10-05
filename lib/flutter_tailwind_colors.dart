@@ -7,6 +7,48 @@ import 'package:flutter/material.dart';
 ///  support@snowcorp.org
 
 class TWColors {
+  /// The transparent primary color.
+  ///
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWColors.transparent,
+  /// )
+  /// ```
+  /// {@end-tool}
+  ///
+  static const Color transparent = Colors.transparent;
+
+  /// The white primary color.
+  ///
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWColors.white,
+  /// )
+  /// ```
+  /// {@end-tool}
+  ///
+  static const Color white = Colors.white;
+
+  /// The black primary color.
+  ///
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWColors.black,
+  /// )
+  /// ```
+  /// {@end-tool}
+  ///
+  static const Color black = Colors.black;
+
   /// The slate primary color and swatch.
   ///
   /// {@tool snippet}
@@ -14,7 +56,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.slate[400],
+  ///   color: TWColors.slate.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -32,6 +74,7 @@ class TWColors {
       700: Color(0xFF334155),
       800: Color(0xFF1E293B),
       900: Color(0xFF0F172A),
+      950: Color(0xFF020617),
     },
   );
   static const int _slatePrimaryValue = 0xFF64748B;
@@ -43,7 +86,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.gray[400],
+  ///   color: TWColors.gray.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -61,6 +104,7 @@ class TWColors {
       700: Color(0xFF374151),
       800: Color(0xFF1F2937),
       900: Color(0xFF111827),
+      950: Color(0xFF030712),
     },
   );
   static const int _grayPrimaryValue = 0xFF6B7280;
@@ -72,7 +116,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.zinc[400],
+  ///   color: TWColors.zinc.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -90,6 +134,7 @@ class TWColors {
       700: Color(0xFF3F3F46),
       800: Color(0xFF27272A),
       900: Color(0xFF18181B),
+      950: Color(0xFF09090b),
     },
   );
   static const int _zincPrimaryValue = 0xFF71717A;
@@ -101,7 +146,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.neutral[400],
+  ///   color: TWColors.neutral.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -119,6 +164,7 @@ class TWColors {
       700: Color(0xFF404040),
       800: Color(0xFF262626),
       900: Color(0xFF171717),
+      950: Color(0xFF0a0a0a),
     },
   );
   static const int _neutralPrimaryValue = 0xFF737373;
@@ -130,7 +176,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.stone[400],
+  ///   color: TWColors.stone.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -148,6 +194,7 @@ class TWColors {
       700: Color(0xFF44403C),
       800: Color(0xFF292524),
       900: Color(0xFF1C1917),
+      950: Color(0xFF0c0a09),
     },
   );
   static const int _stonePrimaryValue = 0xFF78716C;
@@ -159,7 +206,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.red[400],
+  ///   color: TWColors.red.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -177,6 +224,7 @@ class TWColors {
       700: Color(0xFFB91C1C),
       800: Color(0xFF991B1B),
       900: Color(0xFF7F1D1D),
+      950: Color(0xFF450a0a),
     },
   );
   static const int _redPrimaryValue = 0xFFEF4444;
@@ -188,7 +236,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.orange[400],
+  ///   color: TWColors.orange.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -206,6 +254,7 @@ class TWColors {
       700: Color(0xFFC2410C),
       800: Color(0xFF9A3412),
       900: Color(0xFF7C2D12),
+      950: Color(0xFF431407),
     },
   );
   static const int _orangePrimaryValue = 0xFFF97316;
@@ -217,7 +266,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.amber[400],
+  ///   color: TWColors.amber.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -235,6 +284,7 @@ class TWColors {
       700: Color(0xFFB45309),
       800: Color(0xFF92400E),
       900: Color(0xFF78350F),
+      950: Color(0xFF451a03),
     },
   );
   static const int _amberPrimaryValue = 0xFFF59E0B;
@@ -246,7 +296,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.yellow[400],
+  ///   color: TWColors.yellow.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -264,6 +314,7 @@ class TWColors {
       700: Color(0xFFA16207),
       800: Color(0xFF854D0E),
       900: Color(0xFF713F12),
+      950: Color(0xFF422006),
     },
   );
   static const int _yellowPrimaryValue = 0xFFEAB308;
@@ -275,7 +326,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.lime[400],
+  ///   color: TWColors.lime.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -293,6 +344,7 @@ class TWColors {
       700: Color(0xFF4D7C0F),
       800: Color(0xFF3F6212),
       900: Color(0xFF365314),
+      950: Color(0xFF1a2e05),
     },
   );
   static const int _limePrimaryValue = 0xFF84CC16;
@@ -304,7 +356,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.green[400],
+  ///   color: TWColors.green.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -322,6 +374,7 @@ class TWColors {
       700: Color(0xFF15803D),
       800: Color(0xFF166534),
       900: Color(0xFF14532D),
+      950: Color(0xFF052e16),
     },
   );
   static const int _greenPrimaryValue = 0xFF22C55E;
@@ -333,7 +386,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.emerald[400],
+  ///   color: TWColors.emerald.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -351,6 +404,7 @@ class TWColors {
       700: Color(0xFF047857),
       800: Color(0xFF065F46),
       900: Color(0xFF064E3B),
+      950: Color(0xFF022c22),
     },
   );
   static const int _emeraldPrimaryValue = 0xFF10B981;
@@ -362,7 +416,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.teal[400],
+  ///   color: TWColors.teal.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -380,6 +434,7 @@ class TWColors {
       700: Color(0xFF0F766E),
       800: Color(0xFF115E59),
       900: Color(0xFF134E4A),
+      950: Color(0xFF042f2e),
     },
   );
   static const int _tealPrimaryValue = 0xFF14B8A6;
@@ -391,7 +446,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.cyan[400],
+  ///   color: TWColors.cyan.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -409,6 +464,7 @@ class TWColors {
       700: Color(0xFF0E7490),
       800: Color(0xFF155E75),
       900: Color(0xFF164E63),
+      950: Color(0xFF083344),
     },
   );
   static const int _cyanPrimaryValue = 0xFF06B6D4;
@@ -420,7 +476,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.sky[400],
+  ///   color: TWColors.sky.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -438,6 +494,7 @@ class TWColors {
       700: Color(0xFF0369A1),
       800: Color(0xFF075985),
       900: Color(0xFF0C4A6E),
+      950: Color(0xFF082f49),
     },
   );
   static const int _skyPrimaryValue = 0xFF0EA5E9;
@@ -449,7 +506,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.blue[400],
+  ///   color: TWColors.blue.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -467,6 +524,7 @@ class TWColors {
       700: Color(0xFF1D4ED8),
       800: Color(0xFF1E40AF),
       900: Color(0xFF1E3A8A),
+      950: Color(0xFF172554),
     },
   );
   static const int _bluePrimaryValue = 0xFF3B82F6;
@@ -478,7 +536,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.indigo[400],
+  ///   color: TWColors.indigo.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -496,6 +554,7 @@ class TWColors {
       700: Color(0xFF4338CA),
       800: Color(0xFF3730A3),
       900: Color(0xFF312E81),
+      950: Color(0xFF1e1b4b),
     },
   );
   static const int _indigoPrimaryValue = 0xFF6366F1;
@@ -507,7 +566,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.violet[400],
+  ///   color: TWColors.violet.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -525,6 +584,7 @@ class TWColors {
       700: Color(0xFF6D28D9),
       800: Color(0xFF5B21B6),
       900: Color(0xFF4C1D95),
+      950: Color(0xFF2e1065),
     },
   );
   static const int _violetPrimaryValue = 0xFF8B5CF6;
@@ -536,7 +596,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.purple[400],
+  ///   color: TWColors.purple.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -554,9 +614,40 @@ class TWColors {
       700: Color(0xFF7E22CE),
       800: Color(0xFF6B21A8),
       900: Color(0xFF581C87),
+      950: Color(0xFF3b0764),
     },
   );
   static const int _purplePrimaryValue = 0xFFA855F7;
+
+  /// The fuchsia primary color and swatch.
+  ///
+  /// {@tool snippet}
+  ///
+  /// ```dart
+  /// Icon(
+  ///   Icons.widgets,
+  ///   color: TWColors.fuchsia.shade400,
+  /// )
+  /// ```
+  /// {@end-tool}
+  ///
+  static const MaterialColor fuchsia = MaterialColor(
+    _fuchsiaPrimaryValue,
+    <int, Color>{
+      50: Color(0xFFfdf4ff),
+      100: Color(0xFFfae8ff),
+      200: Color(0xFFf5d0fe),
+      300: Color(0xFFf0abfc),
+      400: Color(0xFFe879f9),
+      500: Color(_fuchsiaPrimaryValue),
+      600: Color(0xFFc026d3),
+      700: Color(0xFFa21caf),
+      800: Color(0xFF86198f),
+      900: Color(0xFF701a75),
+      950: Color(0xFF4a044e),
+    },
+  );
+  static const int _fuchsiaPrimaryValue = 0xFFd946ef;
 
   /// The pink primary color and swatch.
   ///
@@ -565,7 +656,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.pink[400],
+  ///   color: TWColors.pink.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -583,6 +674,7 @@ class TWColors {
       700: Color(0xFFBE185D),
       800: Color(0xFF9D174D),
       900: Color(0xFF831843),
+      950: Color(0xFF500724),
     },
   );
   static const int _pinkPrimaryValue = 0xFFEC4899;
@@ -594,7 +686,7 @@ class TWColors {
   /// ```dart
   /// Icon(
   ///   Icons.widgets,
-  ///   color: Colors.rose[400],
+  ///   color: TWColors.rose.shade400,
   /// )
   /// ```
   /// {@end-tool}
@@ -612,6 +704,7 @@ class TWColors {
       700: Color(0xFFBE123C),
       800: Color(0xFF9F1239),
       900: Color(0xFF881337),
+      950: Color(0xFF4c0519),
     },
   );
   static const int _rosePrimaryValue = 0xFFF43F5E;
